@@ -25,7 +25,7 @@ app.layout = html.Div(children=[html.H1('SpaceX Launch Records Dashboard',
                                     {'label': 'CCAFS LC-40', 'value': 'CCAFS LC-40'},
                                     {'label': 'VAFB SLC-4E', 'value': 'VAFB SLC-4E'},
                                     {'label': 'KSC LC-39A', 'value': 'KSC LC-39A'},
-                                    {'label': 'CCAFS SLC-40', 'value': 'CCAFC SLC-40'}
+                                    {'label': 'CCAFS SLC-40', 'value': 'CCAFS SLC-40'}
                                     ],
                                     value='ALL',
                                     placeholder="Select a Launch Site here",
@@ -89,3 +89,21 @@ def scatter(entered_site, payload):
 # Run the app
 if __name__ == '__main__':
     app.run_server()
+
+'''
+Which site has the largest successful launches?
+CCAFS LC-40 has the largest successful launches with a count of 19 successful launches.
+
+Which site has the highest launch success rate?
+KSC LC-39A has the highest successful launch rate with a success rate of 76.9% 
+
+Which payload range(s) has the highest launch success rate?
+The payload mass range of 2500-5000 kg has the highest launch success rate.
+
+Which payload range(s) has the lowest launch success rate?
+The payload mass range of 7500-10000 kg has the lowest launch success rate.
+
+Which F9 Booster version (v1.0, v1.1, FT, B4, B5, etc.) has the highest
+launch success rate?
+The FT F9 Booster version has the highest launch success rate.
+'''
