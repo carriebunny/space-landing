@@ -14,4 +14,6 @@ Week 3: Launch Sites Locations Analysis with Folium: Interactive Visual Analytic
 
 Week 3: Built an Interactive Dashboard with Plotly Dash: spacex_dash_app.py
 
+Week 4: Space X Falcon 9 First Stage Landing Prediction: Machine Learning Prediction: SpaceX_Machine_Learning_Prediction_Part_5.jupyterlite.ipynb
+
 
