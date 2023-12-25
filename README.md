@@ -12,4 +12,6 @@ Week 2: SpaceX Falcon 9 First Stage Landing Prediction: Exploring and Preparing 
 
 Week 3: Launch Sites Locations Analysis with Folium: Interactive Visual Analytics with Folium lab: ibm_launch_site_location.ipynb
 
+Week 3: Built an Interactive Dashboard with Plotly Dash: spacex_dash_app.py
+
 
